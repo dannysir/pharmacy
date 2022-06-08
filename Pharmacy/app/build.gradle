@@ -43,5 +43,7 @@ dependencies {
     implementation "androidx.drawerlayout:drawerlayout:1.1.1"
     implementation "androidx.constraintlayout:constraintlayout:2.1.4"
     implementation "androidx.constraintlayout:constraintlayout-compose:1.0.1"
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+
 
 }
