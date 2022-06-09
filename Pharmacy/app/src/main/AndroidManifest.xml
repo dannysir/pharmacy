@@ -22,6 +22,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".component_extended"/>
+        <activity android:name=".explain"/>
+        <activity android:name=".explain_extend"/>
+        <activity android:name=".like_item"/>
+        <activity android:name=".like_med"/>
+        <activity android:name=".like_phar"/>
+        <activity android:name=".like_phar_toplist"/>
+        <activity android:name=".map"/>
+
     </application>
 
 </manifest>

@@ -107,6 +107,7 @@ android:background="@color/backgroundcolor"
             android:padding="10dp">
 
             <Button
+                android:id="@+id/tomain"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -115,6 +116,7 @@ android:background="@color/backgroundcolor"
                 android:textSize="24sp" />
 
             <Button
+                android:id="@+id/tobook"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -123,6 +125,7 @@ android:background="@color/backgroundcolor"
                 android:textSize="24sp" />
 
             <Button
+                android:id="@+id/topharmacy"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
