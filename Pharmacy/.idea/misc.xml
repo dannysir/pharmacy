@@ -4,7 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2515" />
+        <entry key="app/src/main/res/drawable/a1_drawable.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/but_around.xml" value="0.2515" />
+        <entry key="app/src/main/res/drawable/ic_home.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.221" />
         <entry key="app/src/main/res/drawable/ic_list.xml" value="0.221" />
         <entry key="app/src/main/res/drawable/ic_menu.xml" value="0.2515" />
@@ -13,7 +15,9 @@
         <entry key="app/src/main/res/layout/likePhar.xml" value="0.29257246376811596" />
         <entry key="app/src/main/res/layout/like_item.xml" value="0.29257246376811596" />
         <entry key="app/src/main/res/layout/like_item2.xml" value="0.29257246376811596" />
+        <entry key="app/src/main/res/layout/like_med.xml" value="0.29257246376811596" />
         <entry key="app/src/main/res/layout/like_phar_toplist.xml" value="0.29257246376811596" />
+        <entry key="app/src/main/res/layout/map.xml" value="0.29257246376811596" />
         <entry key="app/src/main/res/layout/toplist.xml" value="0.29257246376811596" />
       </map>
     </option>

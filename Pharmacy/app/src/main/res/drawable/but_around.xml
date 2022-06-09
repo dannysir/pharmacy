@@ -3,7 +3,7 @@
     <solid android:color="#FFFFFF" /> //배경색
 
     <stroke
-        android:width="3dp"
+        android:width="2dp"
         android:color="#FF000000" /> //선색
     <corners
         android:topLeftRadius="10dp"
