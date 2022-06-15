@@ -1,29 +1,31 @@
 package com.example.myapplication
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Gravity
 import android.widget.Button
+import androidx.appcompat.app.AppCompatActivity
 import androidx.drawerlayout.widget.DrawerLayout
+import com.example.myapplication.databinding.LikeMedBinding
 
-open class MainActivity : AppCompatActivity() {
+class like_med : AppCompatActivity() {
+    private lateinit var binding : LikeMedBinding
     override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
 
-        val menu_btn = findViewById<Button>(R.id.butMenu)
-        val gettext_btn = findViewById<Button>(R.id.gettext)
-        val tomain_btn=findViewById<Button>(R.id.tomain)
-        val tobook_btn=findViewById<Button>(R.id.tobook)
-        val topharmacy_btn=findViewById<Button>(R.id.topharmacy)
+        binding = LikeMedBinding.inflate(layoutInflater)
+
+        var menu_btn = binding.butMenu3
+
+        super.onCreate(savedInstanceState)
+        setContentView(binding.root)
+        var tomain_btn = binding.tomain
+        var tobook_btn = binding.tobook
+        var topharmacy_btn = binding.topharmacy
 
         val intent_toexplain = Intent(this,explain::class.java)
         val intent_tomain = Intent(this,MainActivity::class.java)
         val intent_tobook = Intent(this,like_med::class.java)
         val intent_topharmacy = Intent(this,map::class.java)
-
-        //메뉴 바 클릭시 펼쳐짐
         menu_btn.setOnClickListener {
             val drawerLayout = findViewById<DrawerLayout>(R.id.drawerLayout)
             if (!drawerLayout.isDrawerOpen(Gravity.LEFT)) {
@@ -31,11 +33,6 @@ open class MainActivity : AppCompatActivity() {
             } else {
                 drawerLayout.closeDrawer(Gravity.LEFT)
             }
-        }
-
-        // 검색
-        gettext_btn.setOnClickListener{
-            startActivity(intent_toexplain)
         }
 
         // to main
@@ -52,7 +49,10 @@ open class MainActivity : AppCompatActivity() {
         topharmacy_btn.setOnClickListener{
             startActivity(intent_topharmacy)
         }
-
-
     }
+
+
+//메뉴 바 클릭시 펼쳐짐
+
 }
+

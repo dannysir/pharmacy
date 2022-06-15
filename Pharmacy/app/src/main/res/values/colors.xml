@@ -11,5 +11,7 @@
     <color name="menucolor">#0367A6</color>
     <color name="backgroundcolor">#F0F0F2</color>
     <color name="more">#5e5e5e</color>
+    <color name="butcolor">#0D2557</color>
+
 
 </resources>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".like_med">
 
     <TextView
         android:id="@+id/textTitle"
@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/butMenu"
+        android:id="@+id/butMenu3"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginStart="16dp"
@@ -95,28 +95,35 @@
             android:orientation="vertical"
             android:padding="10dp">
 
-            <TextView
-                android:layout_width="wrap_content"
+            <Button
+                android:id="@+id/tomain"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Menu"
+                android:text="Main"
                 android:textColor="@color/maintitle"
+                android:background="@color/butcolor"
                 android:textSize="24sp" />
 
-            <TextView
-                android:layout_width="wrap_content"
+            <Button
+                android:id="@+id/tobook"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Menu"
+                android:text="책갈피"
                 android:textColor="@color/maintitle"
+                android:background="@color/butcolor"
+
                 android:textSize="24sp" />
 
-            <TextView
-                android:layout_width="wrap_content"
+            <Button
+                android:id="@+id/topharmacy"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Menu"
+                android:text="약국 찾기"
                 android:textColor="@color/maintitle"
+                android:background="@color/butcolor"
                 android:textSize="24sp" />
 
             <View
