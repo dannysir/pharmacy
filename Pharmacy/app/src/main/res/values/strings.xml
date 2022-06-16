@@ -1,13 +1,13 @@
 <resources>
     <string name="app_name">My Application</string>
     <string name="btn">btn</string>
-    <string name="effect">효능</string>
+    <string name="explain_effect">효능</string>
     <string name="effect_ex">이 약품은 심근 경색 및</string>
     <string name="title">감초</string>
-    <string name="effect_2">복용법</string>
-    <string name="effect_3">부작용</string>
-    <string name="effect_4">성분</string>
-    <string name="effect_5">보관방법</string>
+    <string name="explain_caution">주의사항</string>
+    <string name="explain_side_effect">부작용</string>
+    <string name="explain_component">성분</string>
+    <string name="explain_use">사용법</string>
     <string name="component2">성분</string>
     <string name="component3">성분</string>
     <string name="extended">이 약은 심근 경색, 뇌경색, 불안정형 협심증에서 혈전 생성 억제와 관솽 동맥 우회술 또는 경피경관 관상동맥 성형술 후 혈전 생성 억제와 고위험군환자에서 심혈관계 위험성 감소에 사용합니다.</string>
@@ -16,4 +16,6 @@
     <string name="component_2">성분</string>
     <string name="component_3">사람혈액응고제</string>
     <string name="use">사용법</string>
+
+
 </resources>

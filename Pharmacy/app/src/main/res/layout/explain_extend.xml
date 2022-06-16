@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:ignore="ExtraText">
+
     android:background="@color/backgroundcolor"
     tools:context=".MainActivity">
 
@@ -42,6 +43,7 @@
         android:id="@+id/explain_extend_sv"
         android:layout_width="match_parent"
         android:layout_height="670dp"
+        android:scrollbars="vertical"
         android:scrollbarDefaultDelayBeforeFade="500000"
         android:scrollbarSize="10dp"
         android:scrollbarFadeDuration="0"
@@ -62,53 +64,77 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="55dp"
+                    android:layout_marginEnd="52dp"
+                    android:layout_marginTop="100dp"
+                    android:layout_weight="0"
+                    android:text="@string/explain_effect"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="TextContrastCheck" />
+
                 <Button
                     android:id="@+id/btn"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:layout_gravity="end"
-                    android:layout_marginEnd="52dp"
-                    android:layout_marginTop="100dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginTop="5dp"
                     android:layout_weight="0"
                     android:background="@drawable/minus_btn"
-                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintBottom_toBottomOf="@+id/textView"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.0"
-                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+                    app:layout_constraintHorizontal_bias="0.661"
+                    app:layout_constraintStart_toEndOf="@+id/textView"
+                    app:layout_constraintTop_toTopOf="@+id/textView"
+                    app:layout_constraintVertical_bias="0.619"
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"  />
 
-                <TextView
-                    android:id="@+id/textView"
-                    android:layout_width="154dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="start"
-                    android:layout_marginTop="100dp"
-                    android:text="@string/effect_2"
-                    android:textSize="18sp"
-                    android:textStyle="bold"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toStartOf="@+id/btn"
-                    app:layout_constraintHorizontal_bias="0.381"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    tools:ignore="TextContrastCheck" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <TextView
                 android:id="@+id/extended"
-                android:layout_width="310dp"
-                android:layout_height="287dp"
+                android:layout_width="300dp"
+                android:layout_height="250dp"
                 android:background="@drawable/but_around"
-                android:layout_marginStart="40dp"
+                android:layout_marginStart="55dp"
                 android:text="@string/extended"
                 android:textColor="#000000"
                 android:textSize="20sp"
-                tools:ignore="InvalidId" />
+                tools:ignore="InvalidId"
 
+
+                />
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="55dp"
+                    android:text="@string/component2"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="TextContrastCheck" />
+
+
 
                 <Button
                     android:id="@+id/btn2"
@@ -127,19 +153,6 @@
                     app:layout_constraintVertical_bias="0.619"
                     tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
-                <TextView
-                    android:id="@+id/textView2"
-                    android:layout_width="154dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="start"
-                    android:layout_marginStart="64dp"
-                    android:text="@string/component2"
-                    android:textSize="18sp"
-                    android:textStyle="bold"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    tools:ignore="TextContrastCheck" />
             </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>
     </ScrollView>
