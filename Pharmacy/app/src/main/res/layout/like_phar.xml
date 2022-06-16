@@ -36,14 +36,14 @@
         android:id="@+id/toplistbut"
         android:layout_width="150dp"
         android:layout_height="40dp"
-        android:gravity="right"
+        android:backgroundTint="@color/menucolor"
         android:drawableRight="@drawable/ic_list"
+        android:gravity="right"
         android:text="약국"
         android:textColor="@color/maintitle"
         android:textSize="16dp"
-        android:textStyle="bold"
 
-        android:backgroundTint="@color/menucolor"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/textTitle"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.459"
@@ -95,28 +95,36 @@
             android:orientation="vertical"
             android:padding="10dp">
 
-            <TextView
-                android:layout_width="wrap_content"
+            <Button
+                android:id="@+id/tomain"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/butcolor"
                 android:gravity="center"
-                android:text="Menu"
+                android:text="Main"
                 android:textColor="@color/maintitle"
                 android:textSize="24sp" />
 
-            <TextView
-                android:layout_width="wrap_content"
+            <Button
+                android:id="@+id/tobook"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/butcolor"
                 android:gravity="center"
-                android:text="Menu"
+                android:text="책갈피"
                 android:textColor="@color/maintitle"
+
                 android:textSize="24sp" />
 
-            <TextView
-                android:layout_width="wrap_content"
+            <Button
+                android:id="@+id/topharmacy"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/butcolor"
                 android:gravity="center"
-                android:text="Menu"
+                android:text="약국 찾기"
                 android:textColor="@color/maintitle"
+
                 android:textSize="24sp" />
 
             <View
@@ -128,8 +136,6 @@
 
         </LinearLayout>
     </androidx.drawerlayout.widget.DrawerLayout>
-
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

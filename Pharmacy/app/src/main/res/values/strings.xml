@@ -16,4 +16,6 @@
     <string name="component_2">성분</string>
     <string name="component_3">사람혈액응고제</string>
     <string name="use">사용법</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

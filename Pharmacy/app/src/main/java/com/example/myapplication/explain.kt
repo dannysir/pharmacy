@@ -12,12 +12,4 @@ class explain: AppCompatActivity() {
         setContentView(R.layout.explain)
     }
 
-
-
-
-
-
-
-
-
 }

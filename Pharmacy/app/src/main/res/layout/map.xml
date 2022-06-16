@@ -94,28 +94,35 @@
             android:orientation="vertical"
             android:padding="10dp">
 
-            <TextView
-                android:layout_width="wrap_content"
+            <Button
+                android:id="@+id/tomain"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Menu"
+                android:text="Main"
                 android:textColor="@color/maintitle"
+                android:background="@color/butcolor"
                 android:textSize="24sp" />
 
-            <TextView
-                android:layout_width="wrap_content"
+            <Button
+                android:id="@+id/tobook"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Menu"
+                android:text="책갈피"
                 android:textColor="@color/maintitle"
+                android:background="@color/butcolor"
                 android:textSize="24sp" />
 
-            <TextView
-                android:layout_width="wrap_content"
+            <Button
+                android:id="@+id/topharmacy"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Menu"
+                android:text="약국 찾기"
                 android:textColor="@color/maintitle"
+                android:background="@color/butcolor"
+
                 android:textSize="24sp" />
 
             <View

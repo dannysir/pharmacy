@@ -23,14 +23,14 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".component_extended"/>
-        <activity android:name=".explain"/>
-        <activity android:name=".explain_extend"/>
-        <activity android:name=".like_item"/>
-        <activity android:name=".like_med"/>
-        <activity android:name=".like_phar"/>
-        <activity android:name=".like_phar_toplist"/>
-        <activity android:name=".map"/>
+        <activity android:name=".component_extended" android:theme="@style/Theme.MyApplication"/>
+        <activity android:name=".explain" android:theme="@style/Theme.MyApplication"/>
+        <activity android:name=".explain_extend" android:theme="@style/Theme.MyApplication"/>
+        <activity android:name=".like_item" android:theme="@style/Theme.MyApplication"/>
+        <activity android:name=".like_med" android:theme="@style/Theme.MyApplication"/>
+        <activity android:name=".like_phar" android:theme="@style/Theme.MyApplication"/>
+        <activity android:name=".like_phar_toplist" android:theme="@style/Theme.MyApplication"/>
+        <activity android:name=".map" android:theme="@style/Theme.MyApplication"/>
 
     </application>
 
