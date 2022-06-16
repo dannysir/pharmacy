@@ -1,7 +1,6 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
-
 }
 
 android {
@@ -9,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.myapplication"
-        minSdk 31
+        minSdk 30
         targetSdk 32
         versionCode 1
         versionName "1.0"
@@ -21,7 +20,7 @@ android {
     }
 
 
-        buildTypes {
+    buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
@@ -34,6 +33,10 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+
+//    ndk {
+//        abiFilters 'arm64-v8a', 'armeabi', 'armeabi-v7a'
+//    }
 }
 
 dependencies {
@@ -48,6 +51,13 @@ dependencies {
     implementation "androidx.constraintlayout:constraintlayout:2.1.4"
     implementation "androidx.constraintlayout:constraintlayout-compose:1.0.1"
     implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'com.google.code.gson:gson:2.8.6'
 
+    //kakao map
+    implementation files('libs/libDaumMapAndroid.jar')
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation files('libs/libDaumMapAndroid.jar')
 
+    // Normal
+    implementation 'io.github.ParkSangGwon:tedpermission-normal:3.3.0'
 }
