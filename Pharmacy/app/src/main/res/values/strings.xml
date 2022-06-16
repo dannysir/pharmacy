@@ -1,11 +1,11 @@
 <resources>
     <string name="app_name">My Application</string>
     <string name="btn">btn</string>
-    <string name="effect">효능</string>
+    <string name="effect">부작용</string>
     <string name="effect_ex">이 약품은 심근 경색 및</string>
     <string name="title">감초</string>
-    <string name="effect_2">복용법</string>
-    <string name="effect_3">부작용</string>
+    <string name="effect_2">병용 금지 성분</string>
+    <string name="effect_3">일일 최대 투여량</string>
     <string name="effect_4">성분</string>
     <string name="effect_5">보관방법</string>
     <string name="component2">성분</string>

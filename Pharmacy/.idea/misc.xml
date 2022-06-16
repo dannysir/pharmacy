@@ -3,15 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/kys/Desktop/opensource_pharmacy/Pharmacy/app/src/main/res/layout/activity_main.xml" value="0.5536458333333333" />
+        <entry key="..\:/Users/kys/Desktop/opensource_pharmacy/Pharmacy/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/kys/Desktop/opensource_pharmacy/Pharmacy/app/src/main/res/layout/component_extended.xml" value="0.5536458333333333" />
-        <entry key="..\:/Users/kys/Desktop/opensource_pharmacy/Pharmacy/app/src/main/res/layout/explain.xml" value="0.39402173913043476" />
+        <entry key="..\:/Users/kys/Desktop/opensource_pharmacy/Pharmacy/app/src/main/res/layout/explain.xml" value="0.18" />
         <entry key="..\:/Users/kys/Desktop/opensource_pharmacy/Pharmacy/app/src/main/res/layout/explain_extend.xml" value="0.39402173913043476" />
+        <entry key="..\:/Users/kys/Desktop/opensource_pharmacy/Pharmacy/app/src/main/res/layout/fragment_blank.xml" value="0.1875" />
         <entry key="..\:/Users/kys/Desktop/opensource_pharmacy/Pharmacy/app/src/main/res/layout/like_item.xml" value="0.39402173913043476" />
         <entry key="..\:/Users/kys/Desktop/opensource_pharmacy/Pharmacy/app/src/main/res/layout/like_med.xml" value="0.39402173913043476" />
         <entry key="..\:/Users/kys/Desktop/opensource_pharmacy/Pharmacy/app/src/main/res/layout/like_phar.xml" value="0.39402173913043476" />
         <entry key="..\:/Users/kys/Desktop/opensource_pharmacy/Pharmacy/app/src/main/res/layout/like_phar_toplist.xml" value="0.31302083333333336" />
-        <entry key="..\:/Users/kys/Desktop/opensource_pharmacy/Pharmacy/app/src/main/res/layout/map.xml" value="0.39402173913043476" />
+        <entry key="..\:/Users/kys/Desktop/opensource_pharmacy/Pharmacy/app/src/main/res/layout/map.xml" value="0.18" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2515" />
         <entry key="app/src/main/res/drawable/a1_drawable.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/border_layout.xml" value="0.306" />

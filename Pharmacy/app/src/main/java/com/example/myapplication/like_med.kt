@@ -22,6 +22,7 @@ class like_med : AppCompatActivity() {
         val intent_tomain = Intent(this, MainActivity::class.java)
         val intent_tobook = Intent(this, like_med::class.java)
         val intent_topharmacy = Intent(this, map::class.java)
+
         menu_btn.setOnClickListener {
             val drawerLayout = findViewById<DrawerLayout>(R.id.drawerLayout)
             if (!drawerLayout.isDrawerOpen(Gravity.LEFT)) {
